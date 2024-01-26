@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Hello, world!</title>
+    </head>
+    <body>
+
+        <div class="container-fluid">
+            <nav class="navbar navbar-dark p-0 bg-light ">
+                <span class="navbar-brand mb-0 h1"><img src="logo2.jpg"
+                        name="logo-img" alt></span>
+            </nav>
+            <div class="row hero">
+                <div class="col-12 col-lg-6">
+                    <form class="form pt-4 my-5 pb-2" name="contact-form"
+                        action="./index.php" method="post">
+                        <div class="form-group">
+                            <div class="duofields" style="display: flex">
+                                <div class="form-group p-2">
+                                    <label class="text-white"
+                                        for="zipcode">First Name</label>
+                                    <input type="text" class="form-control"
+                                        id="First Name"
+                                        name="First Name" required />
+                                </div>
+                                <div class="form-group p-2">
+                                    <label class="text-white"
+                                        for="Last Name">Last Name</label>
+                                    <input type="text" class="form-control"
+                                        id="Last Name"
+                                        name="Last Name" required />
+                                </div>
+                            </div>
+                            <!-- <div class="form-group"></div> -->
+                            <div class="form-group p-2">
+                                <label class="text-white" for="email">Email
+                                    Address</label>
+                                <input type="email" class="form-control "
+                                    id="email" name="email"
+                                    required />
+                            </div>
+                            <div class="duofields" style="display: flex">
+                                <div class="form-group p-2">
+                                    <label class="text-white"
+                                        for="zipcode">Zipcode</label>
+                                    <input type="text" class="form-control"
+                                        id="zipcode"
+                                        name="zipcode" required />
+                                </div>
+                                <div class="form-group p-2">
+                                    <label class="text-white"
+                                        for="phone">Phone</label>
+                                    <input type="number" class="form-control"
+                                        id="phone" name="phone"
+                                        required />
+                                </div>
+                            </div>
+                            <div class="form-group p-2">
+                                <label class="text-white"
+                                    for="address">Address</label>
+                                <input type="text" class="form-control"
+                                    id="address" name="address"
+                                    required />
+                            </div>
+                            <div class="duofields" style="display: flex">
+                                <div class="form-group p-2">
+                                    <label class="text-white"
+                                        for="city">City</label>
+                                    <input type="text" class="form-control"
+                                        id="city" name="city"
+                                        required />
+                                </div>
+                                <div class="form-group p-2">
+                                    <label class="text-white"
+                                        for="state">State</label>
+                                    <input type="text" class="form-control"
+                                        id="state" name="state"
+                                        required />
+                                </div>
+                            </div>
+                            <input required type="hidden"
+                                class
+                                id="Inputtrackdrive_number"
+                                name="trackdrive_number">
+                            <input required type="hidden"
+                                class
+                                id="InputTraffidSourceID"
+                                name="traffic_source_id"
+                                placeholder="Enter Traffic Source ID">
+                            <input type="hidden" class
+                                id="InputVanityUrl"
+                                name="vanity_url">
+                            <input type="hidden" name="website" value>
+                            <input id="leadid_token" name="universal_leadid"
+                                type="hidden"
+                                value />
+                            <input type="hidden" name="xxTrustedFormCertUrl"
+                                id="xxTrustedFormCertUrl" value>
+                            <input type="hidden" name="xxTrustedFormPingUrl"
+                                id="xxTrustedFormPingUrl" value>
+
+                            <div class="form-check p-2 pl-4">
+                                <input class="form-check-input" type="checkbox"
+                                    value id="defaultCheck1">
+                                <label class="form-check-label text-white"
+                                    for="defaultCheck1">
+                                    By clicking continue, I agree to the Privacy
+                                    Policy and Terms.
+                                </label>
+                            </div>
+                            <div class="form-group mt-3 pl-2">
+                                <button type="submit" class="btn btn-danger">
+                                    Get Coupon
+                                </button>
+                            </div>
+                            <div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="row">
+                        <h1 class="text-white text-center offer">Exclusive
+                            Offer: <br> Win $1000!</h1>
+                        <p class="offers text-white">
+                            💰 $1000 cash prize!
+                            <br>🤩 Quick and easy form – takes only a few
+                            minutes!
+                            <br>🌟 Join hundreds of winners who've already
+                            cashed in!
+
+                        </p>
+                    </div>
+                    <img class="image-responsive header-img" src="header.png"
+                        alt="error">
+                </div>
+            </div>
+
+            <!-- <div class="row mid">
+                <div class="col-12 col-lg-5 text-white">
+                    Your Winning Journey Starts Here! 🌟 We believe in real
+                    winners, and that could be YOU!
+
+                    Why Trust Us?
+                    🔒 Secure Process: Your information is safe with us.
+                    🏆 Proven Winners: Join the league of successful entrants.
+
+                </div>
+            </div> -->
+            <div class="row footer">
+                <h3>
+                    <!-- Your Winning Journey Starts Here! <br>🌟 We believe in real
+                    winners, and that could be YOU!
+
+                    <br>Why Trust Us?
+                    <br>🔒 Secure Process: Your information is safe with us.
+                    <br>🏆 Proven Winners: Join the league of successful entrants. -->
+                    We acceptbr
+
+                    SEO_ALT_TEXT_FOOTER_PAYMENT_BANNER
+                    Share us on
+                    LottoKings.com is not connected to or approved by any of the
+                    companies, organisations, or any other bodies that related
+                    to any of the games used. EuroMillions is the trademark of
+                    Services aux Lotteries on Europe, The National Lottery and
+                    Lotto are trademarks of the National-Lottery, operated by
+                    Camelot Group Plc., PowerBall is the trademark of the
+                    Multi-State Lottery Association (MUSL), Florida Lotto is a
+                    trademark of Florida Lottery, Indiana Hoosier Lotto is a
+                    trademark of Indiana Lottery, California Super Lotto is a
+                    trademark of California Lottery, New York Lotto is a
+                    trademark of New York Lottery, Lotto 6/49 is a trademark of
+                    Interprovincial Lottery Corporation, France loto is a
+                    trademark of Française des Jeux, Hot Lotto is a trademark of
+                    the Multi-State Lottery Association (MUSL), German Lotto is
+                    a trademark of Staatliche Lotterieverwaltung, MegaSena is a
+                    trademark of Caixa Economica Federal, OzLotto and Powerball
+                    are trademarks of Tattersall´s, Mega Millions is a trademark
+                    of North American Association of State and Provincial
+                    Lotteries, SuperEnalotto is a trademark of Sisal S.p.A., and
+                    ‘El Gordo de Navidad’ and ‘El Niño’ are games operated by
+                    Loterías y Apuestas del Estado.
+
+                    © 2024 Legacy Eight Curacao NV, registration Number 139031,
+                    Heelsumstraat 51 E-Commerce Park, Willemstad, Curaçao,
+                    operates the website under the sublicense number
+                    8048/JAZ2016-007.
+
+                    © 2024 - Bulleg Eight Limited., registration Number HE
+                    404418, Voukourestiou 25, Neptune House, Limassol, 3045,
+                    Cyprus holds service agreements with payment methods
+                    suppliers including Skrill and Neteller.
+
+                    SEO_ALT_TEXT_FOOTER_GODADDY
+                </h3>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
