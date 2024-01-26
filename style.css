@@ -1,15 +1,21 @@
 .hero{
-   background-image: url(header-bg.jpg);
+   background-image: url('header-bg.jpg');
+   background-repeat: no-repeat;
+   background-size: 100%;
 }
 [name="contact-form"]{
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
     border-radius: 2%;
-    width:74%;
+    width:39%;
     background-size: cover;
     background-repeat: no-repeat;
+    /* //background-attachment: fixed; */
     
     /* justify-content:center; */
 
+}
+.form{
+    justify-content: center;
 }
 [name = "logo-img"]{
     max-width: 20%;
@@ -18,8 +24,8 @@
 }
 
 .header-img{
-    margin-top: 10%;
-    width: 650px;
+    margin-top: 2%;
+    width: 899px 
 }
 .offers{
     position: absolute;
@@ -33,6 +39,9 @@
     background-image: linear-gradient(to right, rgba(255,0,0,1),rgba(255,0,0,0));
 }
 .footer{
+
     background-image: url(footer.jpg);
-    max-width: 80%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
 }
