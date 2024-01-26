@@ -2,15 +2,14 @@
    background-image: url('header-bg.jpg');
    background-repeat: no-repeat;
    background-size: 100%;
+   background-attachment: fixed;
 }
 [name="contact-form"]{
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
     border-radius: 2%;
     width:39%;
     background-size: cover;
-    background-repeat: no-repeat;
-    /* //background-attachment: fixed; */
-    
+    /* background-repeat: no-repeat */
     /* justify-content:center; */
 
 }
@@ -25,7 +24,7 @@
 
 .header-img{
     margin-top: 2%;
-    width: 899px 
+    width: 904px 
 }
 .offers{
     position: absolute;
