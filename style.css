@@ -1,14 +1,16 @@
+*{
+    font-family: sans-serif;
+}
 .hero{
    background-image: url('header-bg.jpg');
    background-repeat: no-repeat;
-   background-size: 100%;
+    background-size: cover;
   
 }
 [name="contact-form"]{
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
     border-radius: 2%;
     width:78%;
-    background-size: cover;
     /* background-repeat: no-repeat */
     /* justify-content:center; */
 
@@ -22,28 +24,53 @@
 
 }
 
-.header-img{
-    margin-top: -6%;
-    width: 55%;
-    margin-left: 111px 
-px
-;
+.offers {
+    position: absolute;
+    margin-top: 5%;
+    right: 5%;
+    font-size: 19px;
 }
-.offers{
+.header-img {
+    margin-top: 6%;
+    width: 55%;
+    margin-left: -10%;
+}
+
+/* .offers{
     position: absolute;
     top: 24%;
 }
 .offer{
     position: absolute;
     top:10%
-}
+} */
 .mid{
     background-image: linear-gradient(to right, rgba(255,0,0,1),rgba(255,0,0,0));
 }
-.footer{
-
+.footer {
     background-image: url(footer.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+.form-group{
+    margin-bottom: 0!important;
+}
+@media only screen and (max-width:600px){
+    .header-img{
+        display:none;
+    }
+    .offers {
+        position: relative!important;
+        text-align: center;
+        font-size: 19px;
+    }
+}
+
+.footerImg{
+    width: 89%;
+}
+.textSize{
+    font-family: sans-serif;
+    font-size: 131%;
 }
