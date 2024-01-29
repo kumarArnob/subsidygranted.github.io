@@ -357,11 +357,12 @@ else{
 
                         <div class="form-check ml-2 pl-0">
                             <!-- Button trigger modal -->
-                            <a type="button" class="change-color" href="" data-toggle="modal" data-target="#exampleModal">
+                            <a type="button" class="change-color" href="" data-toggle="modal"
+                                data-target="#exampleModal">
                                 Terms & Condition
                             </a>
-                            
-                            
+
+
 
                             <!-- Modal -->
                             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
@@ -385,11 +386,39 @@ else{
                                                 Consent isn't required to use the service.
                                             </Span>
                                         </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondar btn-danger"
+                                        <!-- <div class="modal-footer"> -->
+                                        <!-- <button type="button" class="btn btn-secondar btn-danger"
                                                 data-dismiss="modal">Decline</button>
-                                            <button type="button" class="btn btn-primary btn-success">Accept</button>
+                                            <button type="button" class="btn btn-primary btn-success">Accept</button> -->
+                                        <div class="tab_foot flex_align_justify my-2 mx-2">
+                                            <button class="decline" onClick="declineTerms()">
+                                                Decline
+                                            </button>
+                                            <button class="agree" onClick="acceptTerms()">
+                                                Agree
+                                            </button>
+
+                                            <script>
+                                            window.addEventListener("load", () => {
+                                                let acceptedTerms = FALSE;
+
+                                                const acceptedTerms = () => {
+                                                    acceptedTerms = TRUE;
+                                                    
+                                                }
+
+                                                const declineTerms = () => {
+                                                    acceptedTerms = FALSE;
+                                                }
+
+                                                console.log(acceptedTerms);
+
+                                            })
+                                            </script>
+
+
                                         </div>
+                                        <!-- </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -398,7 +427,9 @@ else{
                             <button type="submit" class="btn m-2 btn-danger">
                                 Get Enrolled
                             </button>
+
                         </div>
+
                         <div>
 
                         </div>

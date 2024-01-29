@@ -88,3 +88,21 @@
  color:blue
  
 }
+.tab_foot button{
+    width: 125px;
+    padding: 5px 10px; 
+    background: transparent;
+    border: 1px solid;
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+.tab_foot button.decline{
+    background-color: red;
+    font-weight: 600;
+  }
+.tab_foot button.agree{
+   background-color: green;
+   font-weight: 600;
+ } 
+ 
