@@ -2,13 +2,13 @@
     font-family: sans-serif;
 }
 .hero{
-   background-image: url('header-bg.jpg');
+   background-image: url('first-container.png');
    background-repeat: no-repeat;
     background-size: cover;
   
 }
 [name="contact-form"]{
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    background-color: rgb(0, 106, 255);
     border-radius: 2%;
     width:78%;
     /* background-repeat: no-repeat */
@@ -17,6 +17,9 @@
 }
 .form{
     justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
 }
 [name = "logo-img"]{
     max-width: 20%;
@@ -27,8 +30,9 @@
 .offers {
     position: absolute;
     margin-top: 5%;
-    right: 5%;
-    font-size: 19px;
+    right: 8%;
+    font-size: 17px;
+    font-weight: bold;
 }
 .header-img {
     margin-top: 6%;
@@ -73,4 +77,14 @@
 .textSize{
     font-family: sans-serif;
     font-size: 131%;
+    font-weight: 700;
+}
+
+.change-color{
+    color:black;
+    transition: color 0.3s
+}
+.change-color:hover{
+ color:blue
+ 
 }
