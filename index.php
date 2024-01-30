@@ -108,34 +108,46 @@ if(!empty($_POST)){
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="new-logo.png">
 
-    <title>Hello, world!</title>
+    <title></title>
 </head>
 
 <body>
 
     <div class="container-fluid">
-        <nav class="navbar navbar-dark bg-light ">
-            <span class="navbar-brand h1"><img src="logo2.jpg" name="logo-img" alt></span>
+        <nav class="navbar navbar-dark bg-dark ">
+            <span class="navbar-brand h1"><a href="http://localhost/couponwebsite">
+                    <img src="new-logo.png" name="logo-img" alt></span>
+            </a>
+            </span>
         </nav>
         <div class="row hero">
             <div class="col-12">
-                <h1 class="text-white mt-4 text-center">Exclusive
+                <h1 class="mt-4 text-center" style="color:red">Exclusive
                     Offer: Win $1000!</h1>
             </div>
             <div class="col-12 col-lg-6 mx-auto">
-                <div class="card card-body">
-                    <h1 class="text-center text-success">Thank you!! Your request has been submitted succesfully.</h1>
+                <div class="col-12 col-lg-6 mx-auto">
+                    
+                    <div class="card card-body formSubmit">
+                    <svg class="svgImg mx-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path
+                            d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z" />
+                    </svg>
+                        <h1 class="text-center text-success">Thank you!!
+                        </h1>
+                        <span class="text-center text-success">Your request has been submitted succesfully.</span>
+                    </div>
                 </div>
             </div>
             <div class="col-12 col-lg-6">
                 <div class="row">
-                    <p class="offers text-white">
-                        💰 $1000 cash prize!
-                        <br>🤩 Quick and easy form – takes only a few
-                        minutes!
-                        <br>🌟 Join hundreds of winners who've already
-                        cashed in!
+                    <p class="offers text-black">
+                        You are only a click away from availing of your $2000 subsidy.
+                        <br>Click to get enrolled to avail now!
+                        <br>You may be able to get a federal loan for education,<br> a small business, and more.
 
                     </p>
                 </div>
@@ -159,20 +171,39 @@ if(!empty($_POST)){
             <div class="col-12 col-lg-6">
                 <img src="last_footer.jpg" class="image-responsive footerImg" alt="error">
             </div>
-            <div class="col-12 col-lg-6">
-                <h3 class="text-white textSize">
-                    Your Winning Journey Starts Here!
-                    <br>
-                    <br>🌟 We believe in real
-                    winners, and that could be YOU!
-
-                    <br>Why Trust Us?<br>
-                    <br>🔒 Secure Process: Your information is safe with us.
-                    <br>🏆 Proven Winners: Join the league of successful entrants.
-                    <br>🌟 Join hundreds of winners who've already cashed in!
-
-
+            <div class="col-12 col-lg-6 text-white">
+                <h3 class="text-white textSize mt-1 ">
+                    Our Mission
                 </h3>
+                <span>
+                    Provide a common website for federal agencies to post discretionary funding opportunities and
+                    for grantees to find and apply to them.
+
+                </span>
+
+
+                <h3 class="text-white textSize mt-4">Benefits of Using SubsidyGranted.com</h3>
+                <span class="text-white">
+                    Using the SubsidyGranted system makes it faster, easier and more cost effective for grant
+                    applicants
+                    <br>to electronically interact with federal grant-making agencies. It also provides the following
+                    key benefits, among many others, to the grant community.
+
+
+                </span>
+
+                <h3 class="text-white textSize mt-4">
+                    Helping the grant community learn more about available opportunities.</h3>
+
+                <span>
+                    Centralizing more than 1,000 different grant programs across federal grant-making agencies
+                    awarding more than $500 billion annually.
+
+                    <br>Standardizing grant information, application packages, and processes for finding and applying
+                    for federal grants.
+
+
+                </span>
             </div>
         </div>
         <div class="row p-2">
@@ -289,15 +320,19 @@ else{
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-
+    <link rel="icon" href="favicon.ico" type="new-logo.png">
     <title></title>
 </head>
 
 <body>
 
     <div class="container-fluid">
-        <nav class="navbar navbar-dark bg-dark ">
-            <span class="navbar-brand h1"><img src="new-logo.png" name="logo-img" alt></span>
+        <nav class="navbar navbar-dark bg-white border-bottom" style="height:56px">
+            <span class="navbar-brand h1">
+                <a href="http://localhost/couponwebsite">
+                    <img src="new-logo.png" name="logo-img" alt></span>
+            </a>
+
         </nav>
         <div class="row hero">
             <div class="col-12">
@@ -390,7 +425,7 @@ else{
                                         <!-- <button type="button" class="btn btn-secondar btn-danger"
                                                 data-dismiss="modal">Decline</button>
                                             <button type="button" class="btn btn-primary btn-success">Accept</button> -->
-                                        <div class="tab_foot flex_align_justify my-2 mx-2">
+                                        <!-- <div class="tab_foot flex_align_justify my-2 mx-2">
                                             <button class="decline" onClick="declineTerms()">
                                                 Decline
                                             </button>
@@ -417,7 +452,7 @@ else{
                                             </script>
 
 
-                                        </div>
+                                        </div> -->
                                         <!-- </div> -->
                                     </div>
                                 </div>

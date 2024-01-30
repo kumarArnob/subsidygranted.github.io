@@ -36,7 +36,7 @@
 }
 .header-img {
     margin-top: 6%;
-    width: 55%;
+    width: 60%;
     margin-left: -10%;
 }
 
@@ -64,10 +64,12 @@
     .header-img{
         display:none;
     }
+    
     .offers {
         position: relative!important;
         text-align: center;
         font-size: 19px;
+        padding-left: 54px;
     }
 }
 
@@ -105,4 +107,15 @@
    background-color: green;
    font-weight: 600;
  } 
+
+ .formSubmit{
+    margin-top: 32px;
+ }
+
+ .svgImg{
+    width:22%;
+    fill: green;
+    margin-top: -44px;
+
+ }
  
